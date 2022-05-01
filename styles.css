@@ -1,0 +1,419 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+   /* background-color: blue; */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    padding: 0 40px;
+
+}
+
+.nav img {
+    width: 52px;
+    height: 53px;
+    
+}
+
+.nav-items {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 20px;
+}
+    
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sidenav {
+    display: none;
+}
+.bar {
+    display: none;
+}
+
+.banner {
+    height: 90vh;
+    width: auto;
+    background: url("./Images/IMG-20220206-WA0079.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.banner h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+}
+
+#Watch {
+    color: rgb(105, 103, 105);
+    font-size: 3.0rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#learn-more {
+    width: 240px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(34, 1, 24);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 1s;
+   
+}
+
+#learn-more:hover {
+    border: 2px solid rgb(201, 6, 136);
+    background: transparent;
+    transform: scale(1.1);
+}
+
+.fa-arrow-right {
+    margin-left: 5px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.flex1 img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.flex2 {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+
+.flex2 h6 {
+    font-size: 0.8rem;
+    color: rgb(175, 21, 149);
+}
+
+.flex2 h4 {
+    margin-top: -20px;
+    color: rgb(126, 17, 108);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7rem;
+}
+
+.flex2 p {
+    font-size: 0.9rem;
+    margin-top: -20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#read-more {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(148, 19, 141);
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+#read-more:hover {
+    background: transparent;
+    border: 2px solid rgb(148, 19, 141) ;
+    transform: scale(1.1);
+    color: rgb(201, 6, 136);
+}
+
+.worship {
+    background-image: url("Images/IMG-20220206-WA0069.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.worship h5 {
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.worship h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#join {
+    width: 150px;
+    height: 50px;
+    background-color: purple;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin: 5px;
+    transition: all 1s;
+}
+
+#join:hover {
+    background: black;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    
+}
+
+.testimony {
+    height: 50vh;
+    background-color: rgb(243, 178, 223);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimony h1 {
+    font-size: 4.0rem;
+}
+
+.footer {
+    height: 40vh;
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.born-again {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(36, 1, 36);
+    padding: 40px 0px;
+}
+
+.born-again h2 {
+    color: white;
+    font-size: 3.0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.born-again h6 {
+    color: white;
+    margin-top: -25px;
+}
+
+.born-again p {
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.name input {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(97, 49, 97);
+    border: none;
+}
+
+.other-info {
+    margin-top: 5px;
+}
+.other-info input {
+    height: 30px;
+    background-color: rgb(97, 49, 97);
+    width: 150px;
+    border: none;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+  
+
+}
+
+#dd {
+    margin-left: 0px;
+} 
+#ss {
+    height: 32px;
+    background-color: white;
+    font-size: 0.6rem;
+    color: Purple;
+}
+
+
+@media screen and (max-width:600px) {
+    .nav {
+        padding: 10px 20px;
+    }
+
+    .nav img {
+        width: 52px;
+        height: 53px;
+        
+    }
+    
+    .nav-items {
+        display: none;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        right: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        display: flex;
+        flex-direction: column;
+      }
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      /* Position and style the close button (top right corner) */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+      .bar {
+          display: block;
+          position: relative;
+          margin-left: auto;
+          font-size: 30px;
+          color: white;
+          border: 2px solid gray;
+          padding: 10px;
+      }
+
+      #main {
+        transition: margin-left 5s;
+    }
+ 
+
+    .banner {
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .banner {
+        height: 90vh;
+        width: auto;
+        background: url("./Images/IMG-20220206-WA0079.jpg") no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 40px;
+    }
+    
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+    
+    #Watch {
+        font-size: 2.0rem;
+    }
+    
+    #learn-more {
+        width: 190px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: all 1s;
+       
+    }
+    
+    #learn-more:hover {
+        background: transparent;
+        transform: scale(1.1);
+    }
+    
+    .description {
+        flex-direction: column;
+    }
+
+    .flex2 {
+        width: 300px;
+        height: 290px;
+        display: flex;
+        
+    }
+
+    .worship h1 {
+        font-size: 4.0rem;
+        text-align: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .testimony h1 {
+        font-size: 2.5rem;
+    }
+
+   
+    
+}
