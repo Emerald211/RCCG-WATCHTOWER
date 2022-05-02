@@ -212,8 +212,8 @@ body {
     background-color: #111;
     padding: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -282,6 +282,64 @@ body {
     color: Purple;
 }
 
+.footer1 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-text {
+    display: flex;
+
+}
+.logo-text h5 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+.logo-text p {
+    color: white;
+}
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding: 0;
+    /* margin-top: -10px; */
+    margin-left: 100px;
+}
+.footer2 h5{
+    margin-top: 0;
+    color: white;
+}
+.links {
+    display: flex;
+}
+.links a {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+
+.link2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer3 {
+    display: flex;
+    margin-left: 100px;
+}
+.footer3 i {
+    padding: 10px;
+}
 
 @media screen and (max-width:600px) {
     .nav {
@@ -372,7 +430,7 @@ body {
     }
     
     #Watch {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
     
     #learn-more {
@@ -381,7 +439,7 @@ body {
         border: none;
         border-radius: 25px;
         color: white;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         transition: all 1s;
        
@@ -411,8 +469,49 @@ body {
     }
 
     .testimony h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
+
+    #tt {
+        width: 97%;
+    }
+    
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer2 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer3 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .other-info input {
+        height: 30px;
+        background-color: rgb(97, 49, 97);
+        width: 100px;
+        border: none;
+        color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .born-again p {
+        margin-top: -10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 0.8rem;
+        color: white;
+        text-align: center;
+    }
+
+
 
    
     
