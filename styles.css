@@ -86,6 +86,11 @@ body {
     transform: scale(1.1);
 }
 
+#learn-more a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .fa-arrow-right {
     margin-left: 5px;
 }
@@ -255,6 +260,7 @@ body {
     height: 35px;
     background-color: rgb(97, 49, 97);
     border: none;
+    color: #fff;
 }
 
 .other-info {
@@ -271,6 +277,10 @@ body {
 
   
 
+}
+
+#email {
+    color: #fff;
 }
 
 #dd {

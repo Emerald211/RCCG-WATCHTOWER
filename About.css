@@ -11,7 +11,7 @@ body {
 .nav {
     display: flex;
     align-items: center;
-    background: #220118;
+    background: #000000;
     padding: 0 40px;
 
 }
@@ -94,12 +94,13 @@ body {
 }
 
 .about-watchtower {
-    margin-top: 20px;
-    padding: 40px;
-    background-color: #1F0016;
+    /* margin-top: 20px; */
+    padding: 50px;
+    background-color: #f8d3ee;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .about1 {
@@ -110,7 +111,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-right: 20px;
-    color: white;
+    color: rgb(51, 2, 26);
 }
 
 .about1 h3 {
@@ -135,6 +136,7 @@ body {
 .about2 img {
     width: 600px;
     height: 90%;
+    
 }
 
 .our-pastor {
@@ -212,10 +214,153 @@ body {
     font-weight: 300;
 }
 
+
+.born-again {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(36, 1, 36);
+    padding: 40px 0px;
+}
+
+.born-again h2 {
+    color: white;
+    font-size: 3.0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.born-again h6 {
+    color: white;
+    margin-top: -25px;
+}
+
+.born-again p {
+    margin-top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.name input {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(97, 49, 97);
+    border: none;
+}
+
+.other-info {
+    margin-top: 5px;
+}
+.other-info input {
+    height: 30px;
+    background-color: rgb(97, 49, 97);
+    width: 150px;
+    border: none;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+  
+
+}
+
+#dd {
+    margin-left: 0px;
+} 
+#ss {
+    height: 32px;
+    background-color: white;
+    font-size: 0.6rem;
+    color: Purple;
+}
+
+.footer {
+    height: 40vh;
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer1 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-text {
+    display: flex;
+
+}
+.logo-text h5 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+.logo-text p {
+    color: white;
+}
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding: 0;
+    /* margin-top: -10px; */
+    margin-left: 100px;
+}
+.footer2 h5{
+    margin-top: 0;
+    color: white;
+}
+.links {
+    display: flex;
+}
+.links a {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+
+.link2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer3 {
+    display: flex;
+    margin-left: 100px;
+}
+.footer3 i {
+    padding: 10px;
+    color: #fff;
+}
+
+.social {
+    color: white;
+}
+
 /* mobile */
 @media screen and (max-width:600px) {
     .nav {
         padding: 10px 20px;
+        
     }
 
     .nav img {
@@ -294,7 +439,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 40px;
+        padding: 0 20px;
     }
     
     .banner h2 {
@@ -324,11 +469,12 @@ body {
 
     .about-watchtower {
         margin-top: 0px;
-        padding: 20px;
+        padding: 0px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        height: 160vh;
     }
     
     .about1 {
@@ -338,8 +484,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 20px;
-        color: white;
+        align-items: center;
+        margin-right: 0;
+        color: rgb(75, 3, 3);
     }
     
     .about1 h3 {
@@ -362,8 +509,8 @@ body {
     }
     
     .about2 img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .pastors {
@@ -373,21 +520,87 @@ body {
     }
 
     .pastor1 {
-        width: 340px;
+        width: 300px;
         height: 350px;
     }
 
+    .pastor1 h6 {
+        margin-top: 250px;
+    }
+
     .pastor2 {
-        width: 340px;
+        width: 300px;
         height: 350px;
         
     }
 
-    .our-pastor {
-        height: 120vh;
+    .pastor2 h6 {
+        margin-top: 250px;
     }
 
-    
-    
+    .our-pastor {
+        height: 140vh;
+        justify-content: center;
+    }
 
+    .other-info input {
+        height: 30px;
+        background-color: rgb(97, 49, 97);
+        width: 100px;
+        border: none;
+        color: #fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .born-again p {
+        margin-top: -10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 0.6rem;
+        color: white;
+        text-align: center;
+    }
+
+    .born-again h2 {
+        color: white;
+        font-size: 2.0rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .footer2 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer3 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .about-watchtower {
+        flex-direction: column-reverse;
+    }
+    
+    .about2 img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .pastors {
+        flex-direction: column;
+    }
 }
