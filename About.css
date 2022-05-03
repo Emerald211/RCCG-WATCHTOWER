@@ -1,0 +1,393 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+   /* background-color: blue; */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: #220118;
+    padding: 0 40px;
+
+}
+
+.nav img {
+    width: 52px;
+    height: 53px;
+    
+}
+
+.nav-items {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 20px;
+}
+    
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sidenav {
+    display: none;
+}
+.bar {
+    display: none;
+}
+
+.banner {
+    height: 90vh;
+    width: auto;
+    background: url("./Images/IMG-20220206-WA0066.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+
+
+.banner h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+}
+
+#Watch {
+    color: rgb(105, 103, 105);
+    font-size: 3.0rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#learn-more {
+    width: 240px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(34, 1, 24);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 1s;
+   
+}
+
+#learn-more:hover {
+    border: 2px solid rgb(201, 6, 136);
+    background: transparent;
+    transform: scale(1.1);
+}
+
+.fa-arrow-down {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.about-watchtower {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1F0016;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about1 {
+    width: 500px;
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.about1 h3 {
+    font-size: 2.0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.about1 p {
+    margin-top: -20px;
+}
+
+.about2 {
+    width: 700px;
+    height: 600px;
+    /* background-color: #818181; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about2 img {
+    width: 600px;
+    height: 90%;
+}
+
+.our-pastor {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-pastor h6 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.our-pastor h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.2rem;
+    margin-top: -25px;
+    border-bottom: 2px solid white;
+}
+
+.pastors {
+    display: flex;
+}
+.pastor1 {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-image: url("./Images/pastor\ tayo.jfif");
+    background-size: cover;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.pastor1 h6 {
+    margin-top: 270px;
+    font-size: 1.0rem;
+    font-weight: 100;
+}
+
+.pastor1 h2 {
+    border: none;
+    font-size: 3.9rem;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.pastor2 {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-image: url("./Images/pastor\ ike.jfif");
+    background-size: cover;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.pastor2 h6 {
+    margin-top: 270px;
+    font-size: 1.0rem;
+    font-weight: 100;
+}
+
+.pastor2 h2 {
+    border: none;
+    font-size: 3.9rem;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+/* mobile */
+@media screen and (max-width:600px) {
+    .nav {
+        padding: 10px 20px;
+    }
+
+    .nav img {
+        width: 52px;
+        height: 53px;
+        
+    }
+    
+    .nav-items {
+        display: none;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        right: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        display: flex;
+        flex-direction: column;
+      }
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      /* Position and style the close button (top right corner) */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+      .bar {
+          display: block;
+          position: relative;
+          margin-left: auto;
+          font-size: 30px;
+          color: white;
+          border: 2px solid gray;
+          padding: 10px;
+      }
+
+      #main {
+        transition: margin-left 5s;
+    }
+ 
+
+    .banner {
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .banner {
+        height: 90vh;
+        width: auto;
+        background: url("./Images/IMG-20220206-WA0066.jpg") no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 40px;
+    }
+    
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+    
+    #Watch {
+        font-size: 1.8rem;
+    }
+    
+    #learn-more {
+        width: 190px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 0.7rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: all 1s;
+       
+    }
+    
+    #learn-more:hover {
+        background: transparent;
+        transform: scale(1.1);
+    }
+
+    .about-watchtower {
+        margin-top: 0px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about1 {
+        width: 300px;
+        height: 900px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20px;
+        color: white;
+    }
+    
+    .about1 h3 {
+        font-size: 2.0rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+    
+    .about1 p {
+        margin-top: -20px;
+    }
+    
+    .about2 {
+        width: 300px;
+        height: 400px;
+        /* background-color: #818181; */
+        display: flex;
+       
+      
+    }
+    
+    .about2 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pastors {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .pastor1 {
+        width: 340px;
+        height: 350px;
+    }
+
+    .pastor2 {
+        width: 340px;
+        height: 350px;
+        
+    }
+
+    .our-pastor {
+        height: 120vh;
+    }
+
+    
+    
+
+}
