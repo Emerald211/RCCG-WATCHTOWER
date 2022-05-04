@@ -73,7 +73,7 @@ body {
     height: 60px;
     border: none;
     border-radius: 25px;
-    background-color: rgb(34, 1, 24);
+    background-color: purple;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all 1s;
@@ -226,7 +226,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(36, 1, 36);
+    background-color: purple;
     padding: 40px 0px;
 }
 
@@ -382,7 +382,7 @@ body {
         background-color: #111; /* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
         display: flex;
         flex-direction: column;
       }
@@ -489,7 +489,8 @@ body {
     }
 
     #tt {
-        width: 97%;
+        width: 80vw;
+        margin-top: 20px;
     }
     
 
@@ -498,29 +499,55 @@ body {
         flex-direction: column;
         justify-content: center;
         padding: 20px;
+        height: 80vh;
     }
 
     .footer2 {
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .footer3 {
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 30px;
+    }
+
+    .other-info {
+        display: flex;
+        flex-direction: column;
     }
 
     .other-info input {
         height: 30px;
         background-color: rgb(97, 49, 97);
-        width: 100px;
+        
+        width: 100%;
         border: none;
         color: #fff;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+    #email {
+        margin-bottom: 5px;
+        width: 80vw;
+    }
+    #ss {
+        width: 80vw;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    #dd {
+        width: 80vw;
+    }
+
+    .born-again {
+        height: 80vh;
+        justify-content: center;
+    }
+
     .born-again p {
-        margin-top: -10px;
+        margin-top: -5px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-style: italic;
         font-size: 0.6rem;
