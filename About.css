@@ -628,7 +628,7 @@ form label {
 @media screen and (min-width:601px) and (max-width:1024px) {
     .about-watchtower {
         flex-direction: column-reverse;
-        height: 160vh;
+        height: 100vh;
     }
     
     .about2 img {
@@ -641,12 +641,18 @@ form label {
     }
 
     .our-pastor {
-        height: 180vh;
+        height: 100vh;
+        justify-content: center;
     }
 
     #name {
         width: 80vw;
         height: 30px;
+    }
+
+    .born-again {
+        height: 60vh;
+        justify-content: center;
     }
     
     #email {
