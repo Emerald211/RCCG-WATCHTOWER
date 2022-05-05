@@ -330,6 +330,26 @@ form label {
     color: white;
 }
 
+.pop-up {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    background-color: rgb(194, 0, 0);
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px;
+    visibility: hidden;
+    transition: transform 0.5s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 160%;
+    bottom: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
 
 
 
