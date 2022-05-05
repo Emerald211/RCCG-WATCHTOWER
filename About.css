@@ -628,6 +628,7 @@ form label {
 @media screen and (min-width:601px) and (max-width:1024px) {
     .about-watchtower {
         flex-direction: column-reverse;
+        height: 160vh;
     }
     
     .about2 img {
@@ -637,5 +638,40 @@ form label {
 
     .pastors {
         flex-direction: column;
+    }
+
+    .our-pastor {
+        height: 180vh;
+    }
+
+    #name {
+        width: 80vw;
+        height: 30px;
+    }
+    
+    #email {
+        width: 80vw;
+        height: 30px;
+    }
+    
+    #password {
+        width: 80vw;
+        height: 30px;
+    }
+    
+    #button {
+        color: #fff;
+        background-color: #111;
+        width: 81vw;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
 }
