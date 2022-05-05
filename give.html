@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="give.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.min.css">
 </head>
 
 <body>
@@ -31,12 +32,113 @@
 
         <!-- Banner Section -->
         <div class="banner">
-            <h2>Welcome to RCCG <br> <span id="Watch">THE WATCHTOWER</span></h2>
-            <button id="learn-more"><a href="#rccg"> Learn more about the church <i
+            <h2>Giving<br> <hr><span id="Watch">THE WATCHTOWER</span></h2>
+            <button id="learn-more"><a href="#rccg"> Learn more <i
                         class="fa fa-arrow-right"></i></a></button>
         </div>
 
+        <!-- Give section -->
+        <div class="giving">
+            <div class="giving1">
+                <img src="./Images/Giving 2.jpg" alt="">
+            </div>
+            <div class="giving2">
+                <div class="g1">
+                    <h4> <i style="margin-left: 20px; margin-right: 20px;" class="fa-solid fa-book-bible"></i> Giving</h4>
+                    <p>Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom. For with the same measure that ye mete withal it shall be measured to you again. (Luke 6:38)</p>
+                </div>
+                <div class="g2">
+                    <h4> <i style="margin-left: 20px; margin-right: 20px;" class="fas fa-heart"></i>  Love Offering</h4>
+                </div>
+                <div class="g3">
+                    <h4><i style="margin-left: 20px; margin-right: 20px;" class="fa-solid fa-credit-card"></i> Tithe</h4>
+                </div>
+                <div class="g4">
+                    <h4> <i style="margin-left: 20px; margin-right: 20px;" class="fa-solid fa-church"></i> Project Offering</h4>
+                </div>
+                <div class="g5">
+                    <h4> <i style="margin-left: 20px; margin-right: 20px;" class="fa-solid fa-circle-dollar-to-slot"></i> Sow a seed</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="born-again">
+            <h2>BE BORN AGAIN</h2>
+            <h6>SAY THIS WORDS</h6>
+            <p>
+                Lord Jesus, I believe that you died for me, that you were buried <br>     and that on the third day you rose  from death and that you are seated <br> at the right hand of the Father; Everything Jesus did by his death, <br> burial resurrection and ascension, I receive into my human spirit, <br> I receive the gift of the Holy Spirit, <br> I declare that I am Born Again !
+            </p>
+
+            <form method="POST">
+
+                <div class="username">
+                    <label for="">Name</label> <br>
+                    <input id="name" type="text" placeholder="Full Name" required>        
+                </div>
+
+                <div class="username">
+                    <label for="">Email</label> <br>
+                    <input id="email" type="email" placeholder="bigman@gmail.com" required>        
+                </div>
+
+                <div class="username">
+                    <label for="">Phone No</label> <br>
+                    <input id="password" type="tel" placeholder="Enter your phone no" required>        
+                </div>
+                
+                <button onclick="validate()" type="submit" id="button">Create an account</button>
+            </form>
+        </div>
+
+
+        
+        <div class="footer">
+            <div class="footer1">
+                <div class="logo-text">
+                    <img src="./Images/logo2-removebg-preview.png" alt="">
+                    <h5>THE WATCHTOWER</h5>
+                </div>
+                <p>Its a place of training.
+                    <br> A place were men are raised.
+                    <br> Jesus is our focus.
+                </p>
+            </div>
+
+            <div class="footer2">
+                <h5>Quick LInks</h5>
+                <div class="links">
+                    <div class="link1">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Sermons</a>
+                        <a href="Contact"></a>
+                    </div>
+                    <div class="link2">
+                        <a href="#">Meet our Pastors</a>
+                        <a href="#">Be born again</a>
+                        <a href="#">LiveStreams</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer3">
+                <div class="social">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fa-brands fa-whatsapp"></i> 
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
