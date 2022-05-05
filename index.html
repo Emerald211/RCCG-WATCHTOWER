@@ -75,7 +75,7 @@
                 <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quisquam?
             </p>
 
-            <form method="post" action="mailto:aderibigbeemmanuel2004@gmail.com" enctype="multipart/form-data">
+            <!-- <form method="post" action="mailto:aderibigbeemmanuel2004@gmail.com" enctype="multipart/form-data">
                 <div class="name">
                     <input id="tt" type="text" placeholder="Full name" required>
                 </div>
@@ -84,6 +84,26 @@
                     <input id="dd" type="text" placeholder="Phone No required" required>
                     <input onclick="validate()" id="ss" type="submit" value="submit">
                 </div>
+            </form> -->
+
+            <form method="POST">
+
+                <div class="username">
+                    <label for="">Name</label> <br>
+                    <input id="name" type="text" placeholder="Full Name" required>        
+                </div>
+
+                <div class="username">
+                    <label for="">Email</label> <br>
+                    <input id="email" type="email" placeholder="bigman@gmail.com" required>        
+                </div>
+
+                <div class="username">
+                    <label for="">Phone No</label> <br>
+                    <input id="password" type="tel" placeholder="Enter your phone no" required>        
+                </div>
+                
+                <button onclick="validate()" type="submit" id="button">Create an account</button>
             </form>
         </div>
 

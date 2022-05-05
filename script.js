@@ -13,8 +13,8 @@ function openNav() {
 
   function validate() {
     const email = document.getElementById('email').value;
-    const name = document.getElementById('tt').value;
-    const phoneNo = document.getElementById('dd').value;
+    const name = document.getElementById('name').value;
+    const phoneNo = document.getElementById('password').value;
     
     if (name === "") {
       alert("Pls fill in your name");

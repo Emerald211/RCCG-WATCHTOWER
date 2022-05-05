@@ -254,37 +254,34 @@ body {
     height: 50px;
 }
 
-.name input {
-    width: 100%;
-    height: 35px;
-    background-color: rgb(97, 49, 97);
-    border: none;
-}
-
-.other-info {
-    margin-top: 5px;
-}
-.other-info input {
-    height: 30px;
-    background-color: rgb(97, 49, 97);
-    width: 150px;
-    border: none;
+form label {
     color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-  
-
 }
 
-#dd {
-    margin-left: 0px;
-} 
-#ss {
-    height: 32px;
-    background-color: white;
-    font-size: 0.6rem;
-    color: Purple;
+
+#name {
+    width: 30vw;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 30vw;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#password {
+    width: 30vw;
+    height: 30px;
+}
+
+#button {
+    color: #fff;
+    background-color: #111;
+    width: 30.5vw;
+    height: 30px;
+    margin-top: 20px;
 }
 
 .footer {
@@ -550,39 +547,37 @@ body {
         justify-content: center;
     }
 
-    #tt {
+    
+
+    #name {
         width: 80vw;
-    }
-
-    #email {
-        margin-bottom: 5px;
-    }
-
-    #dd {
-        margin-bottom: 5px;
-    }
-
-    #ss {
-        width: 81vw;
-    }
-
-    .other-info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .other-info input {
         height: 30px;
-        background-color: rgb(97, 49, 97);
-        width: 80vw;
-        border: none;
-        color: #fff;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    
+    #email {
+        width: 80vw;
+        height: 30px;
+    }
+    
+    #password {
+        width: 80vw;
+        height: 30px;
+    }
+    
+    #button {
+        color: #fff;
+        background-color: #111;
+        width: 81vw;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+
     form {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 20px;
     }
 
     .born-again {

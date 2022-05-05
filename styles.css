@@ -255,42 +255,36 @@ body {
     height: 50px;
 }
 
-.name input {
-    width: 100%;
-    height: 35px;
-    background-color: rgb(97, 49, 97);
-    border: none;
+form {
+    margin-top: 20px;
+}
+
+form label {
     color: #fff;
 }
 
-.other-info {
-    margin-top: 5px;
-}
-.other-info input {
+
+#name {
+    width: 30vw;
     height: 30px;
-    background-color: rgb(97, 49, 97);
-    width: 150px;
-    border: none;
-    color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-  
-
 }
 
 #email {
-    color: #fff;
+    width: 30vw;
+    height: 30px;
 }
 
-#dd {
-    margin-left: 0px;
-} 
-#ss {
-    height: 32px;
-    background-color: white;
-    font-size: 0.6rem;
-    color: Purple;
+#password {
+    width: 30vw;
+    height: 30px;
+}
+
+#button {
+    color: #fff;
+    background-color: #111;
+    width: 30.5vw;
+    height: 30px;
+    margin-top: 20px;
 }
 
 .footer1 p {
@@ -512,34 +506,32 @@ body {
         margin-top: 30px;
     }
 
-    .other-info {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .other-info input {
+    #name {
+        width: 80vw;
         height: 30px;
-        background-color: rgb(97, 49, 97);
-        
-        width: 100%;
-        border: none;
-        color: #fff;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 10px;
     }
-
+    
     #email {
-        margin-bottom: 5px;
         width: 80vw;
+        height: 30px;
+        margin-bottom: 10px;
     }
-    #ss {
+    
+    #password {
         width: 80vw;
-        padding: 0;
-        margin-top: 5px;
+        height: 30px;
+    }
+    
+    #button {
+        color: #fff;
+        background-color: #111;
+        width: 81vw;
+        height: 30px;
+        margin-top: 20px;
     }
 
-    #dd {
-        width: 80vw;
-    }
 
     .born-again {
         height: 80vh;
