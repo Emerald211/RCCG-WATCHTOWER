@@ -548,6 +548,29 @@ form label {
     }
 
 
+    .pop-up {
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        background-color: rgb(194, 0, 0);
+        transform: translate(-50%,-50%) scale(0.1);
+        text-align: center;
+        padding: 0 30px;
+        visibility: hidden;
+        transition: transform 0.5s, top 0.4s;
+    }
+    
+    .open-popup {
+        visibility: visible;
+        top: 160%;
+        bottom: 50%;
+        transform: translate(-50%,-50%) scale(1);
+    }
+    
+
+
 }
 
 @media screen and (min-width:601px) and (max-width:1020px) {
