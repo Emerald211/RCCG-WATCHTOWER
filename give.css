@@ -336,7 +336,7 @@ form label {
     position: absolute;
     top: 0%;
     left: 50%;
-    background-color: rgb(194, 0, 0);
+    background-color: rgb(138, 149, 243);
     transform: translate(-50%,-50%) scale(0.1);
     text-align: center;
     padding: 0 30px;
@@ -344,11 +344,40 @@ form label {
     transition: transform 0.5s, top 0.4s;
 }
 
+.acc {
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+    width: 70%;
+    padding: 0 30px;
+    margin: 5px;
+    /* border-radius: 10px; */
+}
+
+
+
+.acc h3 {
+    margin-left: 20%;
+    font-size: 1.9rem;
+}
+
+.pop-up i {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    font-size: 2.5rem;
+    color: red;
+}
+
 .open-popup {
     visibility: visible;
     top: 160%;
     bottom: 50%;
     transform: translate(-50%,-50%) scale(1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -549,12 +578,12 @@ form label {
 
 
     .pop-up {
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 100%;
         position: absolute;
         top: 0%;
         left: 50%;
-        background-color: rgb(194, 0, 0);
+        background-color: rgb(138, 149, 243);
         transform: translate(-50%,-50%) scale(0.1);
         text-align: center;
         padding: 0 30px;
@@ -562,12 +591,50 @@ form label {
         transition: transform 0.5s, top 0.4s;
     }
     
+    .acc {
+        display: flex;
+        background-color: white;
+        box-shadow: 2px 2px 2px black;
+        width: 350px;
+        padding: 0 10px;
+        margin: 5px;
+        /* border-radius: 10px; */
+    }
+    
+    .acc h2 {
+        font-size: 1.2rem;
+    }
+    
+    .acc h3 {
+        margin-left: 10%;
+        font-size: 1.2rem;
+    }
+    
+    .pop-up i {
+        position: absolute;
+        right: 1%;
+        top: 1%;
+        font-size: 2.5rem;
+        color: red;
+    }
+    
     .open-popup {
         visibility: visible;
         top: 160%;
         bottom: 50%;
         transform: translate(-50%,-50%) scale(1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    
+    
+    
+    
+    
+
+   
     
 
 
