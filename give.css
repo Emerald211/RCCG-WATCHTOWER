@@ -580,7 +580,7 @@ form label {
 
     .pop-up {
         width: 280px;
-        height: 120%;
+        height: 150%;
         position: absolute;
         top: 0%;
         left: 50%;
@@ -622,7 +622,7 @@ form label {
     
     .open-popup {
         visibility: visible;
-        top: 171%;
+        top: 191%;
         bottom: 50%;
         transform: translate(-50%,-50%) scale(1);
         display: flex;
