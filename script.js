@@ -52,7 +52,7 @@ window.onclick = function(event) {
 
 function openPopup() {
   let popup = document.getElementById("popup");
-  popup.classList.add("open-popup")
+  popup.classList.add("open-popup");
 }
 
 function closePopup() {
