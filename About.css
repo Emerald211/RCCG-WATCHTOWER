@@ -122,7 +122,7 @@ body {
 .about1 h3 {
     font-size: 2.0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 28, 255);
+    color: #080534;
    
 }
 
@@ -251,7 +251,7 @@ body {
 }
 
 .our-programs h2 {
-    color: rgb(236, 22, 236);
+    color: #080534;
     font-size: 3.0rem;
 }
 
@@ -269,7 +269,13 @@ body {
     padding: 0 20px;
     background-color: #ffffff;
     margin: 20px;
-    box-shadow: 0px 2px 5px 2px black;
+    box-shadow: 0px 0px 15px 0px rgb(179, 177, 177);
+    transition: all 1s;
+}
+
+.program1:hover {
+    filter: brightness(120%);
+    transform: scale(1.02);
 }
 
 .program1 ul {
@@ -287,7 +293,7 @@ body {
 .program1 i {
     font-size: 2.5rem;
     margin-top: 40px;
-    color: rgb(214, 19, 182);
+    color: #080534;
 }
 
 .program1 h4 {
@@ -299,13 +305,20 @@ body {
 
 .program1 p {
     margin-top: -20px;
-    color: purple;
+    color: #080534;
 }
 
 .program1 h6 {
-    color: purple;
+    color: #080534;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.0rem;
+}
+
+
+.anthem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .born-again {
@@ -313,7 +326,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: auto;
-    background-color: purple;
+    background-color: #080534;
     padding: 40px 0px;
 }
 
@@ -368,8 +381,9 @@ form label {
     color: #fff;
     background-color: #111;
     width: 30.5vw;
-    height: 30px;
+    height: 40px;
     margin-top: 20px;
+    border: none;
 }
 
 .footer {
@@ -675,6 +689,10 @@ form label {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+    }
+
+    .anthem img {
+        width: 90vw;
     }
 
     .born-again {
