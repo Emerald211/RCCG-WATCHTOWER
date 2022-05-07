@@ -785,4 +785,8 @@ form label {
         align-items: center;
         margin-top: 20px;
     }
+
+    .footer2 {
+        margin-left: 20px;
+    }
 }
