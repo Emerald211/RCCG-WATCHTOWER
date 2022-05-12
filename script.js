@@ -59,3 +59,22 @@ function closePopup() {
   let popup = document.getElementById("popup");
   popup.classList.remove("open-popup")
 }
+
+
+function copy() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+  // console.log(copyText)
+
+  
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.read(copyText.value);
+
+  /* Alert the copied text */
+  alert("Copied the text");
+}
+
