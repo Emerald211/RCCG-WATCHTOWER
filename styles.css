@@ -59,6 +59,7 @@ body {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5rem;
+    opacity: 0;
 }
 
 #Watch {
@@ -77,13 +78,12 @@ body {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all 1s;
+    opacity: 0;
    
 }
 
 #learn-more:hover {
-    border: 2px solid rgb(201, 6, 136);
-    background: transparent;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 #learn-more a {
@@ -95,11 +95,41 @@ body {
     margin-left: 5px;
 }
 
+.slide-left {
+    animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.banner h2.slide-left {
+    animation-delay: 1s;
+}
+
+#learn-more.slide-left {
+    animation-delay: 2s;
+}
+
+
+
 .description {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    opacity: 0;
+}
+
+.description.slide-left {
+    animation-delay: 3s;
 }
 
 .flex1 img {
@@ -172,6 +202,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     border-bottom: 2px solid white;
+    opacity: 0;
+}
+
+.worship h5.slide-left {
+    animation-delay: 5s;
 }
 
 .worship h1 {
@@ -179,6 +214,19 @@ body {
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0;
+}
+
+.worship h1.slide-left {
+    animation-delay: 6s;
+}
+
+.btn {
+    opacity: 0;
+}
+
+.btn.slide-left {
+    animation-delay: 7s;
 }
 
 #join {
@@ -230,16 +278,24 @@ body {
     padding: 40px 0px;
 }
 
+
 .born-again h2 {
     color: white;
     font-size: 3.0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.born-again h2.slide-left {
+    animation-delay: 9s;
 }
 
 .born-again h6 {
     color: white;
     margin-top: -25px;
+
 }
+
 
 .born-again p {
     margin-top: -10px;
@@ -248,7 +304,11 @@ body {
     color: white;
     text-align: center;
     font-size: 0.8rem;
+
 }
+
+
+
 
 .footer img {
     width: 50px;
@@ -257,6 +317,10 @@ body {
 
 form {
     margin-top: 20px;
+    opacity: 0;
+}
+form.slide-left {
+    animation-delay: 9s;
 }
 
 form label {
